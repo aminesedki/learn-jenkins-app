@@ -32,7 +32,7 @@ pipeline {
 
                 sh '''
                 
-                    test -f buils/index.html
+                    test -f build/index.html
                     npm test
                 '''
             }
